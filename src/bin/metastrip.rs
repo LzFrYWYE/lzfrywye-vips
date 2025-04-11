@@ -17,6 +17,7 @@ fn main() {
 
     if args.len() != 3 {
         println!("usage: {} <input_image> <output_image>", args[0]);
+        return;
     }
 
     unsafe {
